@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drive_background"
+    tools:context="com.example.staure.home">
+
+
+    <ImageButton
+        android:id="@+id/result"
+        android:layout_width="67dp"
+        android:layout_height="91dp"
+        android:background="@drawable/analysis"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="67dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/about" />
+
+    <ImageButton
+        android:id="@+id/saved"
+        android:layout_width="67dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/save" />
+
+    <TextView
+        android:id="@+id/resulttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:text="Results"
+        android:textColor="@color/blue"
+        android:textSize="14dp"
+        android:fontFamily="@font/ubuntu"/>
+    <TextView
+        android:id="@+id/savedtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="120dp"
+        android:text="Saved"
+        android:textColor="@color/blue"
+        android:textSize="14dp"
+        android:fontFamily="@font/ubuntu"/>
+    <TextView
+        android:id="@+id/abouttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="120dp"
+        android:text="About"
+        android:textColor="@color/blue"
+        android:textSize="14dp"
+        android:fontFamily="@font/ubuntu"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Click the button to select the options"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        android:fontFamily="@font/ubuntu"/>
+
+</RelativeLayout>

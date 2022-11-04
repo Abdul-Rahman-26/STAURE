@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name"><font color="black" font-family="satisfy">STAURE</font></string>
+    <string name="logout">Logout</string>
+</resources>
